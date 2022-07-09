@@ -7,3 +7,4 @@
 | 3 | Leap Year | [LeapYear](Day_3/LeapYear.py) |
 | 3 | Love Calculator | [LoveCalculator](Day_3/LoveCalculator.py) |
 | 3 | Treasure Island | [TreasureIsland](Day_3/TreasureIsland.py) |
+| 4 | Who Is Paying | [WhoIsPaying](Day_4/WhoIsPaying) |
