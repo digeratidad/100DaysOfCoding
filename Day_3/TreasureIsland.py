@@ -23,16 +23,20 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Shicktopia Island")
 print("Your mission is to find the treasure")
 
-direction = input('You are at a crossroad, which direction do you want to go? Enter "left" or "right"\n')
+direction = input('You are at a crossroad, which direction do you want to go? Enter "left" or "right"\n').lower()
+
 if not direction == "left":
     print("You have fallen in a hole and are dead. Game Over!")
+
 if direction == "left":
-    swim = input('You have arrived at a lake. Would you like to do "swim" or "wait"?\n')
+    swim = input('You have arrived at a lake. Would you like to do "swim" or "wait"?\n').lower()
     if not swim == "wait":
         print("You were attacked by a trout. Game Over!")
+
     if swim == "wait":
-        door = input('You were picked up by a boat and made it across the lake. You see three doors, one is "red",'
-                     ' one is "yellow", and another one is "blue". Which door do you choose?\n')
+        door = input('You were picked up by a boat and made it across the lake. You see a house with three doors, one is'
+                     ' "red", one is "yellow", and one is "blue". Which door do you choose?\n').lower()
+
         if door == "red":
             print("You were burned by fire. Game Over!")
         elif door =="yellow":
